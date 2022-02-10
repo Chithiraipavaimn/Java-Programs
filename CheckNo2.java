@@ -22,6 +22,6 @@ public class CheckNo2
 
 Output:
 
-The given two numbers are same.
+The Given two numbers are different.
 
  */
