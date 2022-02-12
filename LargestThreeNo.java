@@ -11,11 +11,11 @@ public class LargestThreeNo
         long number2= scan.nextLong();
         System.out.println("Enter Number3: ");
         long number3= scan.nextLong();
-        if(number1>number2 && number1>number3)
+        if(number1>=number2 && number1>=number3)
         {
             System.out.println("The greatest number is "+number1);
         }
-        else if(number2>number1 && number2>number3)
+        else if(number2>=number1 && number2>=number3)
         {
             System.out.println("The greatest number is "+number2);
         }
