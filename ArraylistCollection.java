@@ -24,8 +24,8 @@ public class ArraylistCollection
                     a[i]=in.nextInt();
                 }
                 System.out.print("Output: ");
-                List<Integer> even=new ArrayList<>();
-                List<Integer> odd=new ArrayList<>();
+                List<Integer> even=new LinkedList<>();
+                List<Integer> odd=new LinkedList<>();
                 for(i=0;i<n;i++)
                 {
                     if(i%2==0)
